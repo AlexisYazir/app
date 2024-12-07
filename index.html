@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarga de Deportes APK</title>
+    <!-- Importar Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo del cuerpo y fondo */
+        body {
+            font-family: 'Poppins', sans-serif; /* Fuente elegante */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #a8dadc, #f1faee);
+            color: #1d3557;
+        }
+
+        /* Contenedor principal con efecto blur */
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 15px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Título */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        /* Texto descriptivo */
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        /* Botón de descarga */
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #457b9d;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Hover del botón */
+        a:hover {
+            background-color: #1d3557;
+            transform: scale(1.05);
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hola, ¡bienvenido!</h1>
+        <p>Haz clic en el botón para descargar la aplicación.</p><br>
+        <a href="./deportes.apk" download>Descargar APK</a>
+    </div>
+</body>
+</html>
